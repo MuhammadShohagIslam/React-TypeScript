@@ -1,8 +1,7 @@
+import { Name } from '../CustomeTypeProps/Custome.type';
+
 type PersonListProps = {
-    name: {
-        first: string;
-        last: string;
-    }[];
+    name: Name[];
 };
 
 const PersonList = (props: PersonListProps) => {

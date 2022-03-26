@@ -1,9 +1,4 @@
-type PersonNameObject = {
-    name: {
-        first: String;
-        last: String;
-    };
-};
+import { PersonNameObject } from '../CustomeTypeProps/Custome.type'
 
 const Person = (props: PersonNameObject) => {
     const { first, last } = props.name;

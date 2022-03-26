@@ -5,7 +5,7 @@ type ChildComponetProps = {
 const ChildComponet = (props: ChildComponetProps) => {
     return (
         <>
-            <h2>{props.children}</h2>
+            {props.children}
         </>
     );
 }

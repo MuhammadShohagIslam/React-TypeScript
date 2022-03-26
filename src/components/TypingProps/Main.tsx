@@ -38,7 +38,7 @@ const Main = () => {
             <Status status= "Loading" />
             <Heading name ="Heading Componnt">This is text which comes from children props</Heading>
             <ChildComponet>
-                <Heading>This is text which comes from child component props</Heading>
+                <Heading name="Good">This is text which comes from child component props</Heading>
             </ChildComponet>
         </>
     );
