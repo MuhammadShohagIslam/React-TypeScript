@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import Main from "./components/TypingProps/Main";
+// import Main from "./components/TypingProps/Main";
+import Main from './components/EventProps/Main'
 
 
 function App() {
     return (
         <div className="App">
-            <Main />
+            {/* <Main /> */}
+            <Main/>
         </div>
     );
 }
