@@ -8,8 +8,9 @@ import "./App.css";
 // import { ThemContext } from './components/ContextAPI/ThemeContext'
 // import { theme } from './components/ContextAPI/theme';
 // import Box from './components/ContextAPI/Box';
-import { UserContextProvider } from "./components/ContextAPI/UserContext";
-import User from "./components/ContextAPI/User";
+// import { UserContextProvider } from "./components/ContextAPI/UserContext";
+// import User from "./components/ContextAPI/User";
+import MainForRef from "./components/UseRef/Main";
 
 function App() {
     return (
@@ -22,9 +23,10 @@ function App() {
             {/* <ThemContext.Provider value={ theme }>
                 <Box/>
             </ThemContext.Provider> */}
-            <UserContextProvider>
+            {/* <UserContextProvider>
                 <User/>
-            </UserContextProvider>
+            </UserContextProvider> */}
+            <MainForRef/>
         </div>
     );
 }
