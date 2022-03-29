@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Main from "./components/GenericProps/Main";
 // import Main from "./components/TypingProps/Main";
 // import Main from './components/EventProps/Main';
 // import StyleProps from "./components/StyleProps/StyleProps";
@@ -14,6 +13,8 @@ import Main from "./components/GenericProps/Main";
 // import MainForRef from "./components/UseRef/Main";
 // import MainClassComp from "./components/ClassComp/Main";
 // import MainComponetProps from "./components/ComponentProps/Main";
+// import MainGeneric from "./components/GenericProps/Main";
+import MainRestriction from "./components/Restricting/Main";
 
 function App() {
     return (
@@ -32,7 +33,8 @@ function App() {
             {/* <MainForRef/> */}
             {/* <MainClassComp/> */}
             {/* <MainComponetProps/> */}
-            <Main/>
+            {/* <MainGeneric/> */}
+            <MainRestriction/>
 
         </div>
     );
