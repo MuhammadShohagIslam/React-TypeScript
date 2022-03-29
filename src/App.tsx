@@ -14,7 +14,9 @@ import "./App.css";
 // import MainClassComp from "./components/ClassComp/Main";
 // import MainComponetProps from "./components/ComponentProps/Main";
 // import MainGeneric from "./components/GenericProps/Main";
-import MainRestriction from "./components/Restricting/Main";
+// import MainRestriction from "./components/Restricting/Main";
+// import MainLiteralExclude from "./components/LiteralsExclude/Main";
+import MainWrapHtmlElement from "./components/WrapHtmlElement/Main";
 
 function App() {
     return (
@@ -34,8 +36,9 @@ function App() {
             {/* <MainClassComp/> */}
             {/* <MainComponetProps/> */}
             {/* <MainGeneric/> */}
-            <MainRestriction/>
-
+            {/* <MainRestriction/> */}
+            {/* <MainLiteralExclude/> */}
+            <MainWrapHtmlElement/>
         </div>
     );
 }
