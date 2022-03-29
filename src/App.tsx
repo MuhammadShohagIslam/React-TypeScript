@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Main from "./components/GenericProps/Main";
 // import Main from "./components/TypingProps/Main";
 // import Main from './components/EventProps/Main';
 // import StyleProps from "./components/StyleProps/StyleProps";
@@ -11,7 +12,8 @@ import "./App.css";
 // import { UserContextProvider } from "./components/ContextAPI/UserContext";
 // import User from "./components/ContextAPI/User";
 // import MainForRef from "./components/UseRef/Main";
-import MainClassComp from "./components/ClassComp/Main";
+// import MainClassComp from "./components/ClassComp/Main";
+// import MainComponetProps from "./components/ComponentProps/Main";
 
 function App() {
     return (
@@ -28,7 +30,10 @@ function App() {
                 <User/>
             </UserContextProvider> */}
             {/* <MainForRef/> */}
-            <MainClassComp/>
+            {/* <MainClassComp/> */}
+            {/* <MainComponetProps/> */}
+            <Main/>
+
         </div>
     );
 }
