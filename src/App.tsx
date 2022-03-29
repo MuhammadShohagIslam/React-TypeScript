@@ -10,7 +10,8 @@ import "./App.css";
 // import Box from './components/ContextAPI/Box';
 // import { UserContextProvider } from "./components/ContextAPI/UserContext";
 // import User from "./components/ContextAPI/User";
-import MainForRef from "./components/UseRef/Main";
+// import MainForRef from "./components/UseRef/Main";
+import MainClassComp from "./components/ClassComp/Main";
 
 function App() {
     return (
@@ -26,7 +27,8 @@ function App() {
             {/* <UserContextProvider>
                 <User/>
             </UserContextProvider> */}
-            <MainForRef/>
+            {/* <MainForRef/> */}
+            <MainClassComp/>
         </div>
     );
 }
